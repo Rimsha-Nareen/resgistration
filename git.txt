@@ -8,8 +8,8 @@
 </head>
 <body>
 <div class="container">
-  <h2>User Registration</h2>
-  <form id="registrationForm" onsubmit="handleSubmit( )">
+  <h2>User Registration</h2>//modification done
+  <form id="registrationForm" onsubmit="handleSubmit( )">//in 2 lines
     <div class="form-group">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required>
